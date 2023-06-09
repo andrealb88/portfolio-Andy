@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "//portfolio-Andy/static/css/main.39e59c82.css",
-    "main.js": "//portfolio-Andy/static/js/main.347e61b2.js",
-    "static/js/787.2d6606a1.chunk.js": "//portfolio-Andy/static/js/787.2d6606a1.chunk.js",
-    "static/media/headphones.png": "//portfolio-Andy/static/media/headphones.197427448d6e75099ccc.png",
-    "static/media/Margaret_Hamilton.png": "//portfolio-Andy/static/media/Margaret_Hamilton.2b181feee4b1c3dbf5e7.png",
-    "static/media/wedding.jpg": "//portfolio-Andy/static/media/wedding.557d77f83a0cd1e5c60b.jpg",
-    "static/media/estancia.jpg": "//portfolio-Andy/static/media/estancia.ccac56441a015edc9cc1.jpg",
-    "static/media/goldenshoe.jpg": "//portfolio-Andy/static/media/goldenshoe.35272b42b64af1143977.jpg",
-    "static/media/ilustra_header.png": "//portfolio-Andy/static/media/ilustra_header.6c0242099ef6fe471d81.png",
-    "static/media/lifeboardgames.jpg": "//portfolio-Andy/static/media/lifeboardgames.4b42488e5ed736f982e0.jpg",
-    "static/media/github.svg": "//portfolio-Andy/static/media/github.3180505b44353fbb3a5dcc21e56dfee0.svg",
-    "index.html": "//portfolio-Andy/index.html",
-    "static/media/envelope.svg": "//portfolio-Andy/static/media/envelope.76321a4194b82990b859bdd760494de0.svg",
-    "static/media/linkedin.svg": "//portfolio-Andy/static/media/linkedin.a05a7c44218fdda742138a8d830e8ca5.svg",
-    "main.39e59c82.css.map": "//portfolio-Andy/static/css/main.39e59c82.css.map",
-    "main.347e61b2.js.map": "//portfolio-Andy/static/js/main.347e61b2.js.map",
-    "787.2d6606a1.chunk.js.map": "//portfolio-Andy/static/js/787.2d6606a1.chunk.js.map"
+    "main.css": "/portfolio-Andy/static/css/main.39e59c82.css",
+    "main.js": "/portfolio-Andy/static/js/main.a99b9fb0.js",
+    "static/js/787.2d6606a1.chunk.js": "/portfolio-Andy/static/js/787.2d6606a1.chunk.js",
+    "static/media/headphones.png": "/portfolio-Andy/static/media/headphones.197427448d6e75099ccc.png",
+    "static/media/Margaret_Hamilton.png": "/portfolio-Andy/static/media/Margaret_Hamilton.2b181feee4b1c3dbf5e7.png",
+    "static/media/wedding.jpg": "/portfolio-Andy/static/media/wedding.557d77f83a0cd1e5c60b.jpg",
+    "static/media/estancia.jpg": "/portfolio-Andy/static/media/estancia.ccac56441a015edc9cc1.jpg",
+    "static/media/goldenshoe.jpg": "/portfolio-Andy/static/media/goldenshoe.35272b42b64af1143977.jpg",
+    "static/media/ilustra_header.png": "/portfolio-Andy/static/media/ilustra_header.6c0242099ef6fe471d81.png",
+    "static/media/lifeboardgames.jpg": "/portfolio-Andy/static/media/lifeboardgames.4b42488e5ed736f982e0.jpg",
+    "static/media/github.svg": "/portfolio-Andy/static/media/github.3180505b44353fbb3a5dcc21e56dfee0.svg",
+    "index.html": "/portfolio-Andy/index.html",
+    "static/media/envelope.svg": "/portfolio-Andy/static/media/envelope.76321a4194b82990b859bdd760494de0.svg",
+    "static/media/linkedin.svg": "/portfolio-Andy/static/media/linkedin.a05a7c44218fdda742138a8d830e8ca5.svg",
+    "main.39e59c82.css.map": "/portfolio-Andy/static/css/main.39e59c82.css.map",
+    "main.a99b9fb0.js.map": "/portfolio-Andy/static/js/main.a99b9fb0.js.map",
+    "787.2d6606a1.chunk.js.map": "/portfolio-Andy/static/js/787.2d6606a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39e59c82.css",
-    "static/js/main.347e61b2.js"
+    "static/js/main.a99b9fb0.js"
   ]
 }
