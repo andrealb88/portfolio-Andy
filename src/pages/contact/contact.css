@@ -1,0 +1,103 @@
+.contact.component {
+  background-color: #f68ff9;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact form {
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact button[type="submit"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.svg-1 {
+  width: 30px;
+  height: 30px;
+}
+.svg-2 {
+  width: 30px;
+  height: 30px;
+}
+.svg-3 {
+  width: 30px;
+  height: 30px;
+}
+/* socialMedia.css */
+
+.social-media-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-links {
+  margin-right: 10px;
+}
+
+.LinkedIn {
+  width: 24px;
+  height: 24px;
+}
+
+.GitHub {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.Envelope {
+  margin-bottom: 0;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.contact-intro {
+  margin-left: 30px;
+}
+
+@media (max-width: 700px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+}

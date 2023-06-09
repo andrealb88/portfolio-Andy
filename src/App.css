@@ -1,38 +1,414 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Rajdhani", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  padding: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.header span {
+  font-size: 20px;
+}
+
+.header ul {
+  display: flex;
+  gap: 20px;
+}
+
+.header ul a {
+  text-decoration: none;
+  border: 1.5px solid #555;
+  padding: 5px 10px;
+  color: #333;
+}
+
+.component {
+  font-size: 30px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.about {
+  background: rgb(115, 139, 243);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.intro {
+  background: linear-gradient(to bottom right, #00bfff, #ff00f7);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.intro h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+  margin-bottom: 2rem;
+}
+
+.intro button {
+  padding: 1rem 2re m;
+  font-size: 2rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 1 rem;
+  cursor: pointer;
+}
+
+.intro button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.bubbles div {
+  height: 60px;
+  width: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  animation: 4s linear infinite;
+}
+div .dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+.bubbles div:nth-child(1) {
+  top: 20%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+.bubbles div:nth-child(2) {
+  top: 60%;
+  left: 80%;
+  animation: animate 10s linear infinite;
+}
+.bubbles div:nth-child(3) {
+  top: 40%;
+  left: 40%;
+  animation: animate 3s linear infinite;
+}
+.bubbles div:nth-child(4) {
+  top: 66%;
+  left: 30%;
+  animation: animate 7s linear infinite;
+}
+.bubbles div:nth-child(5) {
+  top: 90%;
+  left: 10%;
+  animation: animate 9s linear infinite;
+}
+.bubbles div:nth-child(6) {
+  top: 30%;
+  left: 60%;
+  animation: animate 5s linear infinite;
+}
+.bubbles div:nth-child(7) {
+  top: 70%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+.bubbles div:nth-child(8) {
+  top: 75%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+.bubbles div:nth-child(9) {
+  top: 50%;
+  left: 50%;
+  animation: animate 6s linear infinite;
+}
+.bubbles div:nth-child(10) {
+  top: 45%;
+  left: 20%;
+  animation: animate 10s linear infinite;
+}
+.bubbles div:nth-child(11) {
+  top: 10%;
+  left: 90%;
+  animation: animate 9s linear infinite;
+}
+.bubbles div:nth-child(12) {
+  top: 20%;
+  left: 70%;
+  animation: animate 7s linear infinite;
+}
+.bubbles div:nth-child(13) {
+  top: 20%;
+  left: 20%;
+  animation: animate 8s linear infinite;
+}
+.bubbles div:nth-child(14) {
+  top: 60%;
+  left: 5%;
+  animation: animate 6s linear infinite;
+}
+.bubbles div:nth-child(15) {
+  top: 90%;
+  left: 80%;
+  animation: animate 9s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(0) rotate(70deg);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: scale(1.3) translateY(-100px) rotate(360deg);
   }
+}
+.portfolio-button {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #053a6f;
+  border-radius: 4px;
+  padding: 14px 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.portfolio-button:hover {
+  background-color: #4d1258;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 999;
+}
+
+.menu-icon span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #333;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.menu-icon span:before,
+.menu-icon span:after {
+  content: "";
+  display: block;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background: inherit;
+  border-radius: inherit;
+  transition: transform 0.3s ease-out;
+}
+
+.menu-icon span:before {
+  transform: translateY(-8px);
+}
+
+.menu-icon span:after {
+  transform: translateY(8px);
+}
+
+.menu-icon.open span {
+  background: transparent;
+}
+
+.menu-icon.open span:before {
+  transform: translateY(0) rotate(45deg);
+}
+
+.menu-icon.open span:after {
+  transform: translateY(0) rotate(-45deg);
+}
+
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-menu li {
+  margin-left: 20px;
+}
+
+/* .portfolio-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 10px;
+  display: block;
+  /* box-shadow: 0 0 5px 0 #ccc; */
+/* }
+
+img:hover {
+  box-shadow: none;
+  opacity: 50%;
+}  */
+
+@media (max-width: 700px) {
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    color: #e0e4cc;
+    font-size: 1.2em;
+    line-height: 1.6;
+    background: #f1f0ef;
+    overflow-x: hidden;
+  }
+
+  label .menu {
+    position: absolute;
+    right: -100px;
+    top: -100px;
+    z-index: 100;
+    width: 200px;
+    height: 173px;
+    background: #fff;
+    border-radius: 50% 50% 50% 50%;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
+    cursor: pointer;
+  }
+
+  label .hamburger {
+    position: absolute;
+    top: 135px;
+    left: 50px;
+    width: 30px;
+    height: 2px;
+    background: #69d2e7;
+    display: block;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+
+  label .hamburger:after,
+  label .hamburger:before {
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #69d2e7;
+  }
+
+  label .hamburger:before {
+    top: -10px;
+  }
+
+  label .hamburger:after {
+    bottom: -10px;
+  }
+
+  label input {
+    display: none;
+  }
+
+  label input:checked + .menu {
+    box-shadow: 0 0 0 100vw #fff, 0 0 0 100vh #fff;
+    border-radius: 0;
+  }
+
+  label input:checked + .menu .hamburger {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  label input:checked + .menu .hamburger:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    bottom: 0;
+  }
+
+  label input:checked + .menu .hamburger:before {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 0;
+  }
+
+  label input:checked + .menu + ul {
+    opacity: 1;
+  }
+
+  label ul {
+    z-index: 200;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    -webkit-transition: 0.25s 0s ease-in-out;
+    transition: 0.25s 0s ease-in-out;
+  }
+
+  label a {
+    margin-bottom: 1em;
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+  .header {
+    width: 1oopx;
+  }
+}
+
+.checkbox {
+  display: none;
 }
