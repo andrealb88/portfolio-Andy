@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
-import "./work/work.js";
 import { Link } from "react-router-dom";
 
 const routeVariants = {
@@ -101,7 +100,7 @@ export const Home = () => {
                   View My Work
                 </a>
               </p> */}
-              <Link to="/work" className="portfolio-button">
+              <Link to="./work" className="portfolio-button">
                 View My Work
               </Link>
             </div>

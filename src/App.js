@@ -31,7 +31,7 @@
 
 // export default App;
 
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Header from "./pages/Header";
 import LocationProvider from "./components/locationProvider";
 import RoutesWithAnimation from "./components/routesWithAnimation";
@@ -41,14 +41,14 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <LocationProvider>
         <AnimatePresence>
           <RoutesWithAnimation />
         </AnimatePresence>
       </LocationProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
