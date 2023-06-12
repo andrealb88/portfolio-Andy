@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-Andy/static/css/main.f536e640.css",
-    "main.js": "/portfolio-Andy/static/js/main.1ec7f35e.js",
+    "main.css": "/portfolio-Andy/static/css/main.423ad5d9.css",
+    "main.js": "/portfolio-Andy/static/js/main.bee9e051.js",
     "static/js/787.2d6606a1.chunk.js": "/portfolio-Andy/static/js/787.2d6606a1.chunk.js",
     "static/media/headphones.png": "/portfolio-Andy/static/media/headphones.197427448d6e75099ccc.png",
     "static/media/Margaret_Hamilton.png": "/portfolio-Andy/static/media/Margaret_Hamilton.2b181feee4b1c3dbf5e7.png",
@@ -15,12 +15,12 @@
     "index.html": "/portfolio-Andy/index.html",
     "static/media/envelope.svg": "/portfolio-Andy/static/media/envelope.76321a4194b82990b859bdd760494de0.svg",
     "static/media/linkedin.svg": "/portfolio-Andy/static/media/linkedin.a05a7c44218fdda742138a8d830e8ca5.svg",
-    "main.f536e640.css.map": "/portfolio-Andy/static/css/main.f536e640.css.map",
-    "main.1ec7f35e.js.map": "/portfolio-Andy/static/js/main.1ec7f35e.js.map",
+    "main.423ad5d9.css.map": "/portfolio-Andy/static/css/main.423ad5d9.css.map",
+    "main.bee9e051.js.map": "/portfolio-Andy/static/js/main.bee9e051.js.map",
     "787.2d6606a1.chunk.js.map": "/portfolio-Andy/static/js/787.2d6606a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f536e640.css",
-    "static/js/main.1ec7f35e.js"
+    "static/css/main.423ad5d9.css",
+    "static/js/main.bee9e051.js"
   ]
 }
