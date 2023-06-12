@@ -11,7 +11,7 @@ function Header() {
           {" "}
           <span className="hamburger"></span>{" "}
         </span>
-        <ul>
+        <ul className="menu-big">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/contact">Contact</NavLink>

@@ -312,18 +312,6 @@ img:hover {
   }
 
   label .menu {
-    /* position: absolute;
-    right: -100px;
-    top: -100px;
-    z-index: 100;
-    width: 200px;
-    height: 173px;
-    background: #fff;
-    border-radius: 50% 50% 50% 50%;
-    -webkit-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
-    box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
-    cursor: pointer; */
     position: absolute;
     right: 12px;
     top: 10px;
@@ -336,20 +324,11 @@ img:hover {
     box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
     cursor: pointer;
   }
+  .menu-big {
+    display: none;
+  }
 
   label .hamburger {
-    /* position: absolute;
-    top: 135px;
-    left: 50px;
-    width: 30px;
-    height: 2px;
-    background: #69d2e7;
-    display: block;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out; */
-
     position: absolute;
     top: 52px;
     left: 42px;
