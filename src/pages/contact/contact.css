@@ -63,9 +63,10 @@
 .social-media-links {
   display: flex;
   align-items: center;
+  margin-right: 10px;
 }
 
-.social-media-links {
+.link-container {
   margin-right: 10px;
 }
 
@@ -86,6 +87,7 @@
 .form {
   display: flex;
   flex-direction: row;
+  margin-bottom: 30px;
 }
 .contact {
   display: flex;
@@ -98,6 +100,12 @@
 @media (max-width: 700px) {
   .form {
     display: flex;
+    flex-direction: column;
+  }
+  .social-media-links {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
     flex-direction: column;
   }
 }

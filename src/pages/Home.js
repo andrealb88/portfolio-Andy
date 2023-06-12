@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import profile from "./avatar.png";
+import "../App.css";
 
 const routeVariants = {
   initial: {
@@ -87,6 +89,7 @@ export const Home = () => {
         <div id="home" className="intro route bg-image background">
           <div className="intro-content display-table">
             <div className="container">
+              <img className="profile" src={profile} alt="profile" />
               <h1 className="intro-title mb-4">Hello, I am Andrea</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items">{words[currentIndex]}</span>

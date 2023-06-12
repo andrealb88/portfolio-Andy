@@ -156,6 +156,7 @@ export const Portfolio = () => {
           <div key={index} className="project-card">
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <img
+                className="image-proyect"
                 src={project.image}
                 alt={project.name}
                 width="400px"
@@ -180,16 +181,16 @@ export const Portfolio = () => {
             </a>
           </div>
         ))}
-      </div>
-      <div className="project-card">
-        <div className="project-name">Projects in WordPress:</div>
-        <a
-          href="https://rochiymarquitos.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={Project7} alt="Project 7" width="400px" height="200px" />
-        </a>
+        <div className="project-card">
+          <div className="project-name">Projects in WordPress:</div>
+          <a
+            href="https://rochiymarquitos.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Project7} alt="Project 7" width="400px" height="200px" />
+          </a>
+        </div>
       </div>
     </div>
   );
