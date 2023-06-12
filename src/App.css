@@ -312,7 +312,7 @@ img:hover {
   }
 
   label .menu {
-    position: absolute;
+    /* position: absolute;
     right: -100px;
     top: -100px;
     z-index: 100;
@@ -323,28 +323,42 @@ img:hover {
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
     box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
+    cursor: pointer; */
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    z-index: 100;
+    width: 104px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50% 50% 50% 50%;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
     cursor: pointer;
   }
 
   label .hamburger {
-    position: absolute;
-    /* top: 135px;
+    /* position: absolute;
+    top: 135px;
     left: 50px;
     width: 30px;
-    height: 2px; */
+    height: 2px;
     background: #69d2e7;
     display: block;
-    /* -webkit-transform-origin: center; */
-    /* transform-origin: center; */
-    -webkit-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
-
-    height: 2px;
-    left: 27px;
-    top: 32px;
     -webkit-transform-origin: center;
     transform-origin: center;
-    width: 30px;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; */
+
+    position: absolute;
+    top: 52px;
+    left: 42px;
+    width: 27px;
+    height: 2px;
+    background: #69d2e7;
+    display: block;
+    transform-origin: center;
+    transition: 0.5s ease-in-out;
   }
 
   label .hamburger:after,
