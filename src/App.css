@@ -328,16 +328,23 @@ img:hover {
 
   label .hamburger {
     position: absolute;
-    top: 135px;
+    /* top: 135px;
     left: 50px;
     width: 30px;
-    height: 2px;
+    height: 2px; */
     background: #69d2e7;
     display: block;
-    -webkit-transform-origin: center;
-    transform-origin: center;
+    /* -webkit-transform-origin: center; */
+    /* transform-origin: center; */
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
+
+    height: 2px;
+    left: 27px;
+    top: 32px;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    width: 30px;
   }
 
   label .hamburger:after,
