@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap");
 
 html {
-  width: fit-content;
+  width: 100%;
 }
 
 body {
@@ -292,6 +292,19 @@ div .dot {
     background: #f1f0ef;
     overflow-x: hidden;
     width: 100%;
+  }
+  .intro h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 1rem;
+  }
+  .intro p {
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 2rem;
   }
 
   label .menu {
