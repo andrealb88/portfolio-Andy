@@ -326,7 +326,10 @@ img:hover {
     box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
     cursor: pointer;
   }
-  .menu-big {
+  /* .menu-big {
+    display: none;
+  } */
+  .header ul {
     display: none;
   }
 
