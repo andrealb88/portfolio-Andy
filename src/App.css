@@ -274,25 +274,6 @@ div .dot {
   margin-left: 20px;
 }
 
-/* .portfolio-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-img {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  margin: 10px;
-  display: block;
-  /* box-shadow: 0 0 5px 0 #ccc; */
-/* }
-
-img:hover {
-  box-shadow: none;
-  opacity: 50%;
-}  */
-
 @media (max-width: 700px) {
   *,
   *:before,
@@ -325,12 +306,6 @@ img:hover {
     transition: 0.5s ease-in-out;
     box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
     cursor: pointer;
-  }
-  /* .menu-big {
-    display: none;
-  } */
-  .header ul {
-    display: none;
   }
 
   label .hamburger {
@@ -393,6 +368,7 @@ img:hover {
 
   label input:checked + .menu + ul {
     opacity: 1;
+    z-index: 100;
   }
 
   label ul {
@@ -405,6 +381,7 @@ img:hover {
     opacity: 0;
     -webkit-transition: 0.25s 0s ease-in-out;
     transition: 0.25s 0s ease-in-out;
+    z-index: -1;
   }
 
   label a {
