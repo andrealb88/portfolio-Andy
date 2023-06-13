@@ -2,6 +2,7 @@
 
 .portfolio-body {
   background: rgb(120 162 247);
+  width: 100%;
 }
 .portfolio-container {
   display: flex;
@@ -64,7 +65,7 @@ img:hover {
     height: 100%;
     display: flex;
   }
-  .message {
+  /* .message {
     position: absolute;
     top: 999px;
     left: 65px;
@@ -72,6 +73,23 @@ img:hover {
     color: #fff;
     background-color: black;
     width: 300px;
+  } */
+  .message {
+    background-color: #000;
+    color: #fff;
+    left: 42px;
+    position: absolute;
+    top: 978px;
+    width: 250px;
+    z-index: 1;
+  }
+  .image-proyect {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 10px;
+    display: block;
+    width: 300px;
+    /* box-shadow: 0 0 5px 0 #ccc; */
   }
 }
 @media (min-width: 1281px) {
