@@ -25,7 +25,7 @@ body {
 
 .header ul {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .header ul a {
@@ -382,13 +382,14 @@ div .dot {
   label input:checked + .menu + ul {
     opacity: 1;
     z-index: 100;
+    font-size: 16px;
   }
 
   label ul {
     z-index: 200;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 44%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     opacity: 0;
@@ -402,6 +403,7 @@ div .dot {
     display: block;
     color: white;
     text-decoration: none;
+    width: 100%;
   }
   .header {
     height: 79px;
