@@ -20,6 +20,10 @@
   display: block;
   /* box-shadow: 0 0 5px 0 #ccc; */
 }
+.project7 {
+  width: 300px;
+  margin: 10px;
+}
 
 img:hover {
   box-shadow: none;

@@ -188,7 +188,13 @@ export const Portfolio = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={Project7} alt="Project 7" width="400px" height="200px" />
+            <img
+              className="project7"
+              src={Project7}
+              alt="Project 7"
+              width="400px"
+              height="200px"
+            />
           </a>
         </div>
       </div>
