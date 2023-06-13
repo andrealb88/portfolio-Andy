@@ -44,13 +44,13 @@ img:hover {
 .project-name {
   background: rgb(120 162 247);
 }
-@media (min-width: 856px), (max-width: 1280px) {
+@media (min-width: 7689px), (max-width: 1024px) {
   .message {
     background-color: #000;
     color: #fff;
-    left: 42px;
+    left: 79px;
     position: absolute;
-    top: 539px;
+    top: 1000px;
     width: 300px;
     z-index: 1;
   }
@@ -62,7 +62,7 @@ img:hover {
   }
 }
 
-@media (max-width: 855px) {
+@media (max-width: 767px) {
   .portfolio-container {
     background: rgb(120 162 247);
     width: 100%;
@@ -71,14 +71,14 @@ img:hover {
   }
   /* .message {
     position: absolute;
-    top: 999px;
-    left: 65px;
+    top: 1000px;
+    left: 7px;
     z-index: 1;
     color: #fff;
     background-color: black;
     width: 300px;
   } */
-  .message {
+  /* .message {
     background-color: #000;
     color: #fff;
     left: 42px;
@@ -86,7 +86,7 @@ img:hover {
     top: 978px;
     width: 250px;
     z-index: 1;
-  }
+  } */
   .image-proyect {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -96,14 +96,14 @@ img:hover {
     /* box-shadow: 0 0 5px 0 #ccc; */
   }
 }
-@media (min-width: 1281px) {
+/* @media (min-width: 857px) {
   .message {
     background-color: #000;
     color: #fff;
-    left: 480px;
+    left: 67px;
     position: absolute;
-    top: 339px;
+    top: 561px;
     width: 300px;
     z-index: 1;
   }
-}
+} */

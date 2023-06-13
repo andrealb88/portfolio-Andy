@@ -175,7 +175,7 @@ export const Portfolio = () => {
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <p className="process">In process...</p>
+                  {/* <p className="process">In process...</p> */}
                 </div>
               )}
             </a>
