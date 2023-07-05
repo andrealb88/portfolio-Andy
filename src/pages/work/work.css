@@ -12,6 +12,9 @@
   display: flex;
   height: 100vh;
 }
+.project-comment {
+  width: 300px;
+}
 
 .image-proyect {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
@@ -88,7 +91,7 @@ img:hover {
     z-index: 1;
   } */
   .image-proyect {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 3px 0 rgba(9, 8, 8, 0.5);
     border-radius: 5px;
     margin: 10px;
     display: block;
@@ -96,14 +99,13 @@ img:hover {
     /* box-shadow: 0 0 5px 0 #ccc; */
   }
 }
-/* @media (min-width: 857px) {
-  .message {
-    background-color: #000;
-    color: #fff;
-    left: 67px;
-    position: absolute;
-    top: 561px;
-    width: 300px;
-    z-index: 1;
+@media (max-width: 1250px) {
+  .portfolio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    height: auto;
   }
-} */
+}
