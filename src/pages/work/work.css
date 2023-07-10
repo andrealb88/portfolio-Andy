@@ -17,7 +17,8 @@
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
-  height: auto;
+  min-height: 100vw;
+  width: 100%;
 }
 .cell {
   border: 5px solid black;
