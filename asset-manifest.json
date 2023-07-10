@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-Andy/static/css/main.d53d3478.css",
-    "main.js": "/portfolio-Andy/static/js/main.9d83900a.js",
+    "main.css": "/portfolio-Andy/static/css/main.5d9ffc57.css",
+    "main.js": "/portfolio-Andy/static/js/main.f9f1b591.js",
     "static/js/787.2d6606a1.chunk.js": "/portfolio-Andy/static/js/787.2d6606a1.chunk.js",
     "static/media/headphones.png": "/portfolio-Andy/static/media/headphones.197427448d6e75099ccc.png",
     "static/media/Margaret_Hamilton.png": "/portfolio-Andy/static/media/Margaret_Hamilton.2b181feee4b1c3dbf5e7.png",
@@ -10,17 +10,16 @@
     "static/media/avatar.png": "/portfolio-Andy/static/media/avatar.b68f0846b1806565bc6f.png",
     "static/media/goldenshoe.jpg": "/portfolio-Andy/static/media/goldenshoe.35272b42b64af1143977.jpg",
     "static/media/ilustra_header.png": "/portfolio-Andy/static/media/ilustra_header.6c0242099ef6fe471d81.png",
-    "static/media/lifeboardgames.jpg": "/portfolio-Andy/static/media/lifeboardgames.4b42488e5ed736f982e0.jpg",
     "static/media/github.svg": "/portfolio-Andy/static/media/github.3180505b44353fbb3a5dcc21e56dfee0.svg",
     "index.html": "/portfolio-Andy/index.html",
     "static/media/envelope.svg": "/portfolio-Andy/static/media/envelope.76321a4194b82990b859bdd760494de0.svg",
     "static/media/linkedin.svg": "/portfolio-Andy/static/media/linkedin.a05a7c44218fdda742138a8d830e8ca5.svg",
-    "main.d53d3478.css.map": "/portfolio-Andy/static/css/main.d53d3478.css.map",
-    "main.9d83900a.js.map": "/portfolio-Andy/static/js/main.9d83900a.js.map",
+    "main.5d9ffc57.css.map": "/portfolio-Andy/static/css/main.5d9ffc57.css.map",
+    "main.f9f1b591.js.map": "/portfolio-Andy/static/js/main.f9f1b591.js.map",
     "787.2d6606a1.chunk.js.map": "/portfolio-Andy/static/js/787.2d6606a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d53d3478.css",
-    "static/js/main.9d83900a.js"
+    "static/css/main.5d9ffc57.css",
+    "static/js/main.f9f1b591.js"
   ]
 }
