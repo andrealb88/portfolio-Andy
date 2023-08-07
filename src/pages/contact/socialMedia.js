@@ -24,7 +24,7 @@ const SocialMediaLinks = () => {
         </a>
         <img className="svg-3" src={envelope} alt="Envelope" />
       </div>
-      <p>Email: holdenandrea88@gmail.com</p>
+      <p className="email">Email: holdenandrea88@gmail.com</p>
     </div>
   );
 };

@@ -1,8 +1,67 @@
 .about {
-  background-color: #d18bf9;
   padding: 80px 0;
-  height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title-b {
+  font-size: 44px;
+  font-family: "Bungee", cursive;
+  text-decoration: underline;
+  text-decoration-color: rgb(119, 7, 142);
+  text-decoration-thickness: 10px;
+  margin-right: 700px;
+  margin-bottom: 50px;
+  margin-top: -54px;
+}
+.big-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.frame1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.frame2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.svg-react {
+  width: 3.5em;
+  height: 3.5rem;
+  border-color: rgb(189, 189, 189);
+  color: rgb(61, 68, 73);
+  border-width: 1px;
+  border-radius: 0.25re;
+}
+.svg-git {
+  width: 3.5em;
+  height: 3.5rem;
+}
+.svg-framer {
+  width: 3.5em;
+  height: 3.5rem;
+}
+.svg-css {
+  width: 3.5em;
+  height: 3.5rem;
+}
+.svg-html {
+  width: 3.5em;
+  height: 3.5rem;
+}
+.svg-javascript {
+  width: 3.5em;
+  height: 3.5rem;
 }
 
 /* About section title */
@@ -61,9 +120,29 @@
     width: 80%;
   }
   .about {
-    background-color: #d18bf9;
     padding: 65px 0;
     width: 100%;
     height: auto;
+  }
+  .title-b {
+    font-size: 34px;
+    font-family: "Bungee", cursive;
+    text-decoration: underline;
+    text-decoration-color: rgb(119, 7, 142);
+    text-decoration-thickness: 10px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-top: -54px;
+  }
+  .lead {
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+@media (min-width: 1275px) {
+  .about {
+    padding: 65px 0;
+    width: 100%;
+    /* min-height: 100vw; */
   }
 }

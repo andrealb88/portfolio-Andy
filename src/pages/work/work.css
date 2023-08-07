@@ -1,25 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Rubik+Mono+One&display=swap");
 
 .portfolio-body {
   width: 100%;
-  background-color: #f9f9f9;
-  background-image: radial-gradient(
-      circle at 20px 20px,
-      #ff0000 10%,
-      transparent 10%
-    ),
-    radial-gradient(circle at 60px 60px, #0000ff 10%, transparent 10%),
-    radial-gradient(circle at 100px 100px, #ffff00 10%, transparent 10%);
-  background-position: 20px 20px, 60px 60px, 100px 100px;
-  background-size: 40px 40px, 40px 40px, 40px 40px;
-  background-repeat: repeat;
+  position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 100vw;
-  width: 100%;
+  /* min-height: 100vw; */
+  width: 100vw;
 }
+
 .cell {
   border: 5px solid black;
   display: flex;
@@ -28,11 +19,11 @@
 }
 
 .cell:nth-child(1) {
-  background-color: red;
+  background-color: rgb(187, 0, 255);
 }
 
 .cell:nth-child(2) {
-  background-color: blue;
+  background-color: rgb(131, 116, 141);
 }
 
 .cell:nth-child(3) {
@@ -44,7 +35,7 @@
 }
 
 .cell:nth-child(5) {
-  background-color: red;
+  background-color: yellow;
 }
 
 .cell:nth-child(6) {
@@ -52,7 +43,7 @@
 }
 
 .cell:nth-child(7) {
-  background-color: blue;
+  background-color: rgb(131, 116, 141);
 }
 
 .cell:nth-child(8) {
@@ -60,7 +51,7 @@
 }
 
 .cell:nth-child(9) {
-  background-color: yellow;
+  background-color: rgb(187, 0, 255);
 }
 .portfolio-container {
   display: flex;
@@ -69,31 +60,51 @@
   width: 100%;
   display: flex;
   height: auto;
+  justify-content: center;
 }
 .project-comment {
   width: 400px;
-  height: 200px;
+  height: 300px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.comment-wedding {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .work-title {
-  font-family: "Rubik Mono One", sans-serif;
+  font-family: "Bungee", cursive;
   font-size: 44px;
+  margin-left: 65px;
+  text-decoration: underline;
+  text-decoration-color: rgb(119, 7, 142);
+  text-decoration-thickness: 10px;
+  margin-bottom: 50px;
 }
 .pharagraph-1 {
-  font-family: "Rubik Mono One", sans-serif;
+  font-family: "Bungee", cursive;
   font-size: 24px;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 .image-proyect {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  /* margin: 10px; */
   display: block;
-  /* box-shadow: 0 0 5px 0 #ccc; */
 }
 .project7 {
-  width: 300px;
-  margin: 10px;
+  width: 400px;
+  height: 200px;
 }
 
 img:hover {
@@ -112,21 +123,67 @@ img:hover {
   font-family: "Monoton", cursive;
   font-size: 40px;
 }
-.project-name {
-  background: rgb(120 162 247);
-}
 .part-1 {
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
 }
 .code {
-  width: 120px;
+  width: 80px;
   display: flex;
   background-color: red;
   border-width: 2px;
   border: solid 2px;
   color: aliceblue;
+  padding: 10px;
+  margin: 5px;
+}
+.project-card {
+  border: 1px solid #dee2e6;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  margin: 20px;
+}
+.part-2 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.part3 {
+  width: 70px;
+  height: 30px;
+  background: black;
+  color: white;
+  padding: 5px;
+}
+.part4 {
+  width: 100px;
+  height: 30px;
+  background: black;
+  color: white;
+  padding: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.part5 {
+  width: 90px;
+  height: 30px;
+  background: black;
+  color: white;
+  padding: 5px;
+}
+.part-6 {
+  display: flex;
+  flex-direction: row;
+}
+.characteristics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.bi {
+  margin-left: 15px;
 }
 @media (min-width: 7689px), (max-width: 1024px) {
   .message {
@@ -142,32 +199,32 @@ img:hover {
     width: 100%;
     display: flex;
     height: auto;
+    justify-content: center;
   }
 }
 
 @media (max-width: 767px) {
   .project-comment {
     width: 350px;
-    height: 200px;
+    height: 300px;
     background-color: white;
   }
 
   .image-proyect {
     box-shadow: 0 1px 3px 0 rgba(9, 8, 8, 0.5);
     border-radius: 5px;
-    /* margin: 10px; */
     display: block;
     width: 350px;
-    /* box-shadow: 0 0 5px 0 #ccc; */
   }
-  /* .project-comment {
-    display: flex;
-    z-index: 2;
-    position: absolute;
-    left: 26%;
-    transform: translate(-20%, 95%);
-    text-align: center;
-  } */
+  .comment-wedding {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+  }
+  .project7 {
+    width: 350px;
+    height: 200px;
+  }
 }
 @media (max-width: 1275px) {
   .portfolio-container {
@@ -177,5 +234,18 @@ img:hover {
     width: 100%;
     display: flex;
     height: auto;
+    justify-content: center;
+  }
+}
+@media (min-width: 1275px) {
+  .portfolio-body {
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vw; */
+    width: 100vw;
+    padding-right: 150px;
+    padding-left: 150px;
   }
 }

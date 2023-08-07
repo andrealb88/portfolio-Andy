@@ -25,6 +25,7 @@ export function Contact() {
       animate="final"
       className="contact component"
     >
+      <h2 className="title-c">Contact</h2>
       <div className="form">
         <form onSubmit={handleSubmit}>
           <p>Let's talk!</p>
@@ -46,15 +47,14 @@ export function Contact() {
             Submit
           </button>
         </form>
-        <div className="contact-intro">
-          <h2>Contact</h2>
+        <div id="contact" className="contact-intro">
           <p>
             Got a problem to solve? Get your space suit ready and tell me your
             ideas to develop your dream application.
           </p>
+          <SocialMediaLinks />
         </div>
       </div>
-      <SocialMediaLinks />
     </motion.div>
   );
 }

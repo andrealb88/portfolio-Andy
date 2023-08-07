@@ -1,11 +1,28 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
 .contact.component {
-  background-color: #f68ff9;
+  background-color: #efd5f3;
+  font-size: 24px;
   padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  width: 100vw;
+  height: 1200px;
+  /* height: auto; */
+  background-image: -gradient(#0000ff, #0000a3 100%);
+  /* clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%); */
+  clip-path: polygon(0 8%, 100% 0, 100% 84%, 0 92%);
+  /* height: 100vh; */
+}
+.title-c {
+  font-size: 44px;
+  font-family: "Bungee", cursive;
+  text-decoration: underline;
+  text-decoration-color: rgb(119, 7, 142);
+  text-decoration-thickness: 10px;
+  margin-right: 661px;
 }
 
 .contact form {
@@ -14,6 +31,7 @@
   border-radius: 10px;
   box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .contact label {
@@ -63,12 +81,13 @@
 
 .social-media-links {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   margin-right: 10px;
 }
 
 .link-container {
-  margin-right: 10px;
+  margin-right: 25px;
+  margin-bottom: 70px;
 }
 
 .LinkedIn {
@@ -89,6 +108,7 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 .contact {
   display: flex;
@@ -96,6 +116,7 @@
 }
 .contact-intro {
   margin-left: 30px;
+  margin-top: 30px;
 }
 
 @media (max-width: 700px) {
@@ -105,19 +126,32 @@
   }
   .social-media-links {
     display: flex;
-    align-items: center;
     margin-right: 10px;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
   }
   .contact.component {
-    background-color: #f68ff9;
-    padding: 50px;
+    background-color: #efd5f3;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
-    height: auto;
+
     font-size: 18px;
+  }
+  .title-c {
+    font-size: 34px;
+    font-family: "Bungee", cursive;
+    text-decoration: underline;
+    text-decoration-color: rgb(119, 7, 142);
+    text-decoration-thickness: 10px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-top: 50px;
+  }
+  .contact-intro {
+    margin-left: 0px;
+    margin-top: 0px;
   }
 }

@@ -1,7 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./About.css";
-
+import javascript from "./js.svg";
+import react from "./react.svg";
+import html from "./html.svg";
+import css from "./css.svg";
+import framer from "./framer-motion.png";
+import git from "./git.svg";
 const routeVariants = {
   initial: {
     y: "100vh",
@@ -11,45 +16,10 @@ const routeVariants = {
   },
 };
 
-// export function About() {
-//   return (
-//     <motion.div
-//       variants={routeVariants}
-//       initial="initial"
-//       animate="final"
-//       className="about component"
-//     >
-//       <h1> About Component </h1>
-//     </motion.div>
-//   );
-// }
-
 export class About extends React.Component {
   constructor() {
     super();
     this.state = {
-      skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "85%", value: "85" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "90%", value: "90" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "80%",
-          value: "80",
-        },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80",
-        },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "70%",
-          value: "70",
-        },
-      ],
       about_me: [
         {
           id: "first-p-about",
@@ -71,75 +41,60 @@ export class About extends React.Component {
         variants={routeVariants}
         initial="initial"
         animate="final"
-        className="about component"
+        className="about"
       >
-        <section id="about" className="about-mf sect-pt4 route">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-                <div className="box-shadow-full">
-                  <div className="row-container">
-                    <div className="col-md-6">
-                      <div className="row">
-                        <div
-                          className="col-sm-6 col-md-5"
-                          style={{ margin: "0 auto" }}
-                        >
-                          <div
-                            className="about-img"
-                            style={{ textAlign: "center" }}
-                          >
-                            <img
-                              className="img-fluid rounded b-shadow-a"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="skill-mf">
-                        {/* <p className="title-s">Skill</p> */}
-                        {this.state.skills.map((skill) => {
-                          return (
-                            <React.Fragment key={skill.id}>
-                              <span>{skill.content}</span>{" "}
-                              <span className="pull-right">
-                                {skill.porcentage}
-                              </span>
-                              <div className="progress">
-                                <div
-                                  className="progress-bar"
-                                  role="progressbar"
-                                  style={{ width: skill.porcentage }}
-                                  aria-valuenow={skill.value}
-                                  aria-valuemin="0"
-                                  aria-valuemax="100"
-                                ></div>
-                              </div>
-                            </React.Fragment>
-                          );
-                        })}
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="about-me pt-4 pt-md-0">
-                        <div className="title-box-2">
-                          <h5 className="title-left">About Me</h5>
-                        </div>
-                        {this.state.about_me.map((content) => {
-                          return (
-                            <p className="lead" key={content.id}>
-                              {content.content}
-                            </p>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div id="about" className="big-box">
+          <p className="title-b">About</p>
+          <div className="skills">
+            <div className="frame1">
+              <div className="box">
+                <img className="svg-css" src={css} alt="css" />
+                <p className="bottom-part"> CSS</p>
+              </div>
+              <div className="box">
+                <img className="svg-framer" src={framer} alt="framer" />
+                <p className="bottom-part">FRAMER MOTION</p>
+              </div>
+              <div className="box">
+                <img className="svg-git" src={git} alt="git" />
+                <p className="bottom-part">GIT</p>
+              </div>
+            </div>
+
+            <div className="frame2">
+              <div className="box">
+                <img className="svg-html" src={html} alt="html" />
+                <p className="bottom-part">HTML</p>
+              </div>
+              <div className="box">
+                <img className="svg-react" src={react} alt="react" />
+                <p className="bottom-part">REACT</p>
+              </div>
+              <div className="box">
+                <img
+                  className="svg-javascript"
+                  src={javascript}
+                  alt="javasctipt"
+                />
+                <p className="bottom-part">JAVASCRIPT</p>
               </div>
             </div>
           </div>
-        </section>
+          <div className="col-md-6">
+            <div className="about-me pt-4 pt-md-0">
+              <div className="title-box-2">
+                <h5 className="title-left">About Me</h5>
+              </div>
+              {this.state.about_me.map((content) => {
+                return (
+                  <p className="lead" key={content.id}>
+                    {content.content}
+                  </p>
+                );
+              })}
+            </div>
+          </div>
+        </div>
       </motion.div>
     );
   }
