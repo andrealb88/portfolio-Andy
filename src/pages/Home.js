@@ -110,19 +110,25 @@ export const Home = () => {
           © 2023— Andrea Lopez Bravo. All rights reserved.
         </h3>
         <div className="svg-bottom">
-          <a href="https://www.instagram.com/" target="_blank">
-            <i class="fab fa-instagram sn" aria-hidden="true"></i>
-          </a>
-          <a href="https://wa.me/+447565418518" target="_blank">
-            <i class="fab fa-facebook sn" aria-hidden="true"></i>
-            <i class="bi bi-whatsapp"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/andrea-holden-14787665/"
-            target="_blank"
-          >
-            <img className="svg-1" src={linkedin} alt="linkedIn" />
-          </a>
+          <div className="circle">
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram sn" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div className="circle">
+            <a href="https://wa.me/+447565418518" target="_blank">
+              {/* <i class="fab fa-facebook sn" aria-hidden="true"></i> */}
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
+          <div className="circle">
+            <a
+              href="https://www.linkedin.com/in/andrea-holden-14787665/"
+              target="_blank"
+            >
+              <img className="svg-1" src={linkedin} alt="linkedIn" />
+            </a>
+          </div>
         </div>
       </footer>
     </div>

@@ -65,17 +65,20 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
-.svg-1 {
+.svg-link {
   width: 30px;
   height: 30px;
 }
-.svg-2 {
+.svg-github {
   width: 30px;
   height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-.svg-3 {
+.svg-envelope {
   width: 30px;
   height: 30px;
+  vertical-align: baseline;
 }
 /* socialMedia.css */
 
@@ -86,8 +89,11 @@
 }
 
 .link-container {
-  margin-right: 25px;
+  margin-right: 50px;
   margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .LinkedIn {
@@ -117,8 +123,37 @@
 .contact-intro {
   margin-left: 30px;
   margin-top: 30px;
+  font-size: 26px;
 }
+@media (min-width: 7689px), (max-width: 1024px) {
+  .link-container {
+    margin-right: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .title-c {
+    font-size: 44px;
+    font-family: "Bungee", cursive;
+    text-decoration: underline;
+    text-decoration-color: rgb(119, 7, 142);
+    text-decoration-thickness: 10px;
+    margin-right: 0px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 
+  .contact-intro {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+}
 @media (max-width: 700px) {
   .form {
     display: flex;

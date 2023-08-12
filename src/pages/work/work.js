@@ -104,9 +104,15 @@ export const Portfolio = () => {
                 <div className="part-1">{project.comment}</div>
                 <div className="part-2">{project.comment2}</div>
                 <div className="characteristics">
-                  <div className="part3">{project.comment3}</div>
-                  <div className="part4">{project.comment4}</div>
-                  <div className="part5">{project.comment5}</div>
+                  <div className="part3">
+                    <p className="charac">{project.comment3}</p>
+                  </div>
+                  <div className="part4">
+                    <p className="charac1">{project.comment4}</p>
+                  </div>
+                  <div className="part5">
+                    <p className="charac2"> {project.comment5}</p>
+                  </div>
                 </div>
                 <div className="part-6">
                   {

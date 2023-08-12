@@ -53,7 +53,7 @@ export class About extends React.Component {
               </div>
               <div className="box">
                 <img className="svg-framer" src={framer} alt="framer" />
-                <p className="bottom-part">FRAMER MOTION</p>
+                <p className="bottom-part-special">FRAMER MOTION</p>
               </div>
               <div className="box">
                 <img className="svg-git" src={git} alt="git" />

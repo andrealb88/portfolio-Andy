@@ -129,14 +129,21 @@ img:hover {
   justify-content: space-evenly;
 }
 .code {
-  width: 80px;
+  width: 100px;
   display: flex;
-  background-color: red;
+  background-color: #750589;
   border-width: 2px;
   border: solid 2px;
   color: aliceblue;
   padding: 10px;
   margin: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.bi-box-arrow-up-right,
+.bi-github {
+  width: 25px;
+  height: 25px;
 }
 .project-card {
   border: 1px solid #dee2e6;
@@ -150,28 +157,33 @@ img:hover {
   margin-left: 8px;
   margin-right: 8px;
 }
-.part3 {
+.charac {
   width: 70px;
-  height: 30px;
+  height: 40px;
   background: black;
   color: white;
-  padding: 5px;
+  padding: 9px;
+  border-radius: 6px;
 }
-.part4 {
+.charac1 {
   width: 100px;
-  height: 30px;
+  height: 40px;
   background: black;
   color: white;
-  padding: 5px;
+  padding-left: 5px;
+  padding-top: 9px;
   margin-left: 8px;
   margin-right: 8px;
+  border-radius: 6px;
 }
-.part5 {
-  width: 90px;
-  height: 30px;
+.charac2 {
+  width: 100px;
+  height: 40px;
   background: black;
   color: white;
-  padding: 5px;
+  padding-top: 9px;
+  padding-left: 14px;
+  border-radius: 6px;
 }
 .part-6 {
   display: flex;

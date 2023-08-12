@@ -13,16 +13,16 @@ const SocialMediaLinks = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="svg-1" src={linkedin} alt="linkedIn" />
+          <img className="svg-link" src={linkedin} alt="linkedIn" />
         </a>
         <a
           href="https://github.com/andrealb88"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="svg-2" src={github} alt="gitHub" />
+          <img className="svg-github" src={github} alt="gitHub" />
         </a>
-        <img className="svg-3" src={envelope} alt="Envelope" />
+        <img className="svg-envelope" src={envelope} alt="Envelope" />
       </div>
       <p className="email">Email: holdenandrea88@gmail.com</p>
     </div>
