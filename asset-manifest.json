@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-Andy/static/css/main.9f250fd1.css",
+    "main.css": "/portfolio-Andy/static/css/main.b702bfdd.css",
     "main.js": "/portfolio-Andy/static/js/main.af558618.js",
     "static/js/787.2d6606a1.chunk.js": "/portfolio-Andy/static/js/787.2d6606a1.chunk.js",
     "static/media/hotel.jpg": "/portfolio-Andy/static/media/hotel.e18d0ed86314f1e9d05e.jpg",
@@ -28,12 +28,12 @@
     "static/media/css.svg": "/portfolio-Andy/static/media/css.1072a59dad7bcd4e8c82de4fca0cb597.svg",
     "static/media/linkedin.svg": "/portfolio-Andy/static/media/linkedin.a05a7c44218fdda742138a8d830e8ca5.svg",
     "static/media/html.svg": "/portfolio-Andy/static/media/html.df324691481d1b1c9b1fbe01f8563975.svg",
-    "main.9f250fd1.css.map": "/portfolio-Andy/static/css/main.9f250fd1.css.map",
+    "main.b702bfdd.css.map": "/portfolio-Andy/static/css/main.b702bfdd.css.map",
     "main.af558618.js.map": "/portfolio-Andy/static/js/main.af558618.js.map",
     "787.2d6606a1.chunk.js.map": "/portfolio-Andy/static/js/787.2d6606a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f250fd1.css",
+    "static/css/main.b702bfdd.css",
     "static/js/main.af558618.js"
   ]
 }
