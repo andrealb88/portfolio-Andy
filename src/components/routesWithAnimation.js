@@ -6,6 +6,14 @@ import { Contact } from "../pages/contact/Contact";
 import { Portfolio } from "../pages/work/work";
 import { Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import { Router } from "react-router-dom";
+import { createBrowserHistory } from "history";
+
+const history = createBrowserHistory();
+
+<Router history={history}>
+  <RoutesWithAnimation />
+</Router>;
 
 function RoutesWithAnimation() {
   const location = useLocation();

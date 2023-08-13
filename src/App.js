@@ -11,34 +11,10 @@ function App() {
   const contactRef = useRef(null);
   const aboutRef = useRef(null);
   const homeRef = useRef(null);
-  // const portfolioRef = useRef(null);
-  // const contactRef = useRef(null);
-  // const aboutRef = useRef(null);
-  // const scrollToPortfolio = () => {
-  //   if (portfolioRef.current) {
-  //     portfolioRef.current.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
-  // const scrollToContact = () => {
-  //   if (contactRef.current) {
-  //     contactRef.current.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
-  // const scrollToAbout = () => {
-  //   if (contactRef.current) {
-  //     aboutRef.current.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
 
   return (
     <HashRouter>
       <LocationProvider>
-        {/* <Header
-          homeRef={homeRef}
-          aboutRef={aboutRef}
-          contactRef={contactRef}
-          portfolioRef={portfolioRef}
-        /> */}
         <AnimatePresence>
           <RoutesWithAnimation />
         </AnimatePresence>
